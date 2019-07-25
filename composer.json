@@ -1,0 +1,12 @@
+{
+    "name": "debianmoor/sweetdigitaladmin",
+    "description": "Sistema de administración para las aplicaciones desarrolladas por Sweet Digital Dreams",
+    "authors": [
+        {
+            "name": "Daniel Echenique",
+            "email": "facueche@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
