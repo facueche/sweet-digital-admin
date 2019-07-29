@@ -2,7 +2,7 @@
 
 Sweet Digital Admin es un paquete para agilizar el sistema de administracion con login y registro incorporado para los sistemas desarrollados por Sweet Digital Dreams.
 
-## Installation
+## Instalación
 
 Usar el manejador de paquetes [composer](https://getcomposer.org/) para instalar Sweet Digital Admin.
 
@@ -20,6 +20,14 @@ Añadir la siguiente linea en el archivo **composer.json** ubicado en la raiz
         },
         ...
     },
+```
+
+Añadir la clase SweetDigitalAdminServiceProvider a la lista de Providers en en archivo **config/app.php**
+```php
+'providers' => [
+    ...
+    DebianMoor\SweetDigitalAdmin\SweetDigitalAdminServiceProvider::class,
+]
 ```
 
 Actualizar la información de las clases que se van a usar
